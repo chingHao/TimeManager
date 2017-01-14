@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TimeManager</string>
+
+    <string-array name="preference_show_as_list_entries">
+        <item>列表展示</item>
+        <item>网格展示</item>
+    </string-array>
+
+    <string-array name="preference_show_as_list_entries_values">
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+
+
+
+    <string name="about_text">Copyright © 2015 chingHao.\nAll Rights Reserved.</string>
+</resources>

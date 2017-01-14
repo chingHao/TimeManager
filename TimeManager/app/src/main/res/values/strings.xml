@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">TimeManager</string>
+    <string name="github_uri">github地址</string>
 
     <string-array name="preference_show_as_list_entries">
         <item>列表展示</item>

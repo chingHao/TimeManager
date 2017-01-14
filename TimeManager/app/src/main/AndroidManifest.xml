@@ -38,7 +38,7 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".views.AboutActivity"
+            android:name="com.chinghao.timemanager.views.AboutActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 

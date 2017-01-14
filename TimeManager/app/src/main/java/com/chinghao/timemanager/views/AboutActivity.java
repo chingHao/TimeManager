@@ -36,7 +36,7 @@ public class AboutActivity extends AppCompatActivity {
     }
     @OnClick(R.id.open_network)
     public void OnClick(){
-        Uri uri=Uri.parse("");
+        Uri uri=Uri.parse("https://github.com/chingHao/TimeManager");
         Intent intent=new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
     }

@@ -1,1 +1,3 @@
-# RecyclerViewDemo
+#时间管理是一款管理自己一周时间的小App   
+   本项目很适合新手练手.
+   欢迎start.

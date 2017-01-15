@@ -22,7 +22,8 @@ import butterknife.OnClick;
 public class AboutActivity extends AppCompatActivity{
     @BindView(R.id.toolbar)
     Toolbar mToolbar;
-
+    @BindView(R.id.open_network)
+    Button mButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,11 @@ public class AboutActivity extends AppCompatActivity{
         if (getSupportActionBar() != null)
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
+    @OnClick(R.id.open_network)
+    public void onClick() {
+        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/chingHao/TimeManager"));
+        startActivity(intent);
+    }
 
 
     @Override
